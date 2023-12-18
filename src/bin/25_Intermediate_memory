@@ -1,19 +1,19 @@
-// Basic memory
-// Memory is stored using Bits: 0 and 1. Bit is a smallest unit of memory
-// Computer optimized for bytes
-// 1 byte == 8 contiguous bits
+Basic memory
+Memory is stored using Bits: 0 and 1. Bit is a smallest unit of memory
+Computer optimized for bytes
+1 byte == 8 contiguous bits
 
-// ADDRESSES
-// All data in memory has an "address"
-// they are used to located data, they are always the same - only data changes
+ADDRESSES
+All data in memory has an "address"
+they are used to located data, they are always the same - only data changes
 
-// Offsets
-// They are used to located items at an specific address 
-// offsets begin at 0
-// they represent the number of bytes away from the original address
-// Normally deal with indexes instead
+Offsets
+They are used to located items at an specific address 
+offsets begin at 0
+they represent the number of bytes away from the original address
+Normally deal with indexes instead
 
-// Recap 
-// Memory used addresses and offsets
-// Address are permanent, data differs 
-// offset can be used to "index" into some data
+Recap 
+Memory used addresses and offsets
+Address are permanent, data differs 
+offset can be used to "index" into some data

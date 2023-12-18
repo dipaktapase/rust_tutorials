@@ -16,14 +16,18 @@ struct GroceryItems{
 }
 
 fn display_quantity(item: &&GroceryItems) {
-    println!("quantity {:?}",  item_quantity)
+    println!("quantity {:?}",  item.quantity)
+}
+
+fn display_id(item: &&GroceryItems) {
+    println!("id {:?}", item.id)
 }
 
 fn main() {
-    Let my_items = GroceryItems {
+    let my_item = &GroceryItems {
         quantity: 3,
         id: 99,
     };
-    display_quantity(&my_items);
-    display.written
+    display_quantity(&my_item);
+    display_id(&my_item)
 }
